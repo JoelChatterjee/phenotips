@@ -53,8 +53,21 @@ streamlit run app.py
 
 ## Testing
 ```bash
-pytest --cov=src --cov-report=term-missing
+pytest
 ```
+
+## Engineering quality and OSS maturity
+To make this project best-in-class open source, prioritize:
+1. **Trust:** strict local-first privacy defaults and explicit medical disclaimers.
+2. **Reliability:** deterministic regression tests for end-to-end patient/clinician workflows.
+3. **Transparency:** explainable risk flags with provenance for each recommendation.
+4. **Community:** contribution templates, clear governance, and responsive issue triage.
+
+See:
+- [ROADMAP.md](ROADMAP.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [SECURITY.md](SECURITY.md)
+- [docs/ethical_guidelines.md](docs/ethical_guidelines.md)
 
 ## Notes and assumptions
 - If Ollama/LangChain runtime is unavailable, a deterministic local parser fallback is used for development.
