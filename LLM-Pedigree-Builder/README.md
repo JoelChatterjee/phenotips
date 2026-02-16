@@ -44,6 +44,14 @@ export OLLAMA_MODEL=qwen2.5:7b-instruct
 ```
 
 ## Run
+Preferred launcher (includes dependency preflight):
+```bash
+./scripts/run_local.sh patient
+./scripts/run_local.sh clinician
+./scripts/run_local.sh landing
+```
+
+Direct Streamlit commands:
 ```bash
 streamlit run apps/patient_app.py
 streamlit run apps/clinician_app.py
