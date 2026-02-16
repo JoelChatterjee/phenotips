@@ -1,0 +1,30 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "gender": "F",
+      "dob": "1975-02-11",
+      "conditions": ["type 2 diabetes"]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "gender": "M",
+      "dob": "1972-07-21",
+      "conditions": []
+    },
+    {
+      "id": 3,
+      "name": "Casey",
+      "gender": "O",
+      "dob": "2002-05-14",
+      "conditions": ["asthma"]
+    }
+  ],
+  "relationships": [
+    {"from": 1, "to": 2, "type": "spouse"},
+    {"from": 1, "to": 3, "type": "parent"},
+    {"from": 2, "to": 3, "type": "parent"}
+  ]
+}
